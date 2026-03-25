@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CS Portfolio | Student Name</title>
+    <meta name="description"
+        content="Portfolio of a Passionate Computer Science Student specializing in Full-Stack Development and AI.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Outfit:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="cursor-glow"></div>
+
+    <nav id="main-nav">
+        <a href="#home" class="logo">SSJ<span> Portfolio</span></a>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="reveal-text">Welcome To My <span class="gradient-text">Portfolio</span></h1>
+            <p class="hero-subtitle typing-container">I am <span id="typing-text"></span></p>
+            <div class="hero-btns">
+                <a href="#about" class="btn btn-primary">About Me</a>
+                <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About <span>Me</span></h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>I am <strong>Sudhansusekhar Jena</strong>, a Computer Science undergraduate from Bhubaneswar,
+                        Odisha, with a deep passion for <strong>Java Full Stack Development</strong>. Currently a
+                        3rd-year B.Tech CSE student at GIET, Khorda, I specialize in building user-friendly applications
+                        and solving real-world problems.</p>
+                    <p>My journey started in Jajpur, and my curiosity for how software is made has led me to master the
+                        Java ecosystem. I believe in continuous learning and turning innovative ideas into reality
+                        through code.</p>
+
+                    <div class="education-grid">
+                        <div class="edu-item">
+                            <h4>B.Tech in CSE</h4>
+                            <p>GIET, Khorda (3rd Year)</p>
+                        </div>
+                        <div class="edu-item">
+                            <h4>12th Grade</h4>
+                            <p>Biju Patnaik HS School of Tech</p>
+                        </div>
+                    </div>
+
+                    <div class="stat-grid">
+                        <div class="stat">
+                            <span class="stat-num">3rd</span>
+                            <span class="stat-label">Year CSE</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-num">Java</span>
+                            <span class="stat-label">Expertise</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-num">Full</span>
+                            <span class="stat-label">Stack</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-wrapper">
+                         <img src="assets/pasport.jpeg" alt="Sudhansusekhar Jena">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section alt-bg">
+        <div class="container">
+            <h2 class="section-title">Technical <span>Skills</span></h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">C</span>
+                        <span class="skill-tag">DSA</span>
+                        <span class="skill-tag">OOPS</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Web Technologies</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">React.js</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Database Systems</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">JDBC</span>
+                        <span class="skill-tag">SQL</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Framework/Libraries</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Spring Boot</span>
+                        <span class="skill-tag">Bootstrap</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Developer Tools</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">GitHub</span>
+                        <span class="skill-tag">Maven</span>
+                        <span class="skill-tag">Postman</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Operating Systems</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Windows</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">Featured <span>Projects</span></h2>
+            <div class="projects-grid">
+                <!-- Project 1: LMS -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/lms.png" alt="LMS (Learning Management System)">
+                        <div class="project-overlay">
+                            <a href="#" class="btn btn-sm">Demo</a>
+                            <a href="#" class="btn btn-sm btn-outline">Code</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>LMS</h3>
+                        <p>A comprehensive Learning Management System for course delivery, student tracking, and
+                            automated certifications.</p>
+                        <div class="project-tags">
+                            <span>Java</span>
+                            <span>Spring Boot</span>
+                            <span>MySQL</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 2: Smart Theater Booking Platform -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/theater.png" alt="Smart Theater Booking Platform">
+                        <div class="project-overlay">
+                            <a href="#" class="btn btn-sm">Demo</a>
+                            <a href="#" class="btn btn-sm btn-outline">Code</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Smart Theater Booking</h3>
+                        <p>Dynamic platform for movie ticket reservations with real-time seat tracking and seamless
+                            payment integration.</p>
+                        <div class="project-tags">
+                            <span>React</span>
+                            <span>Spring Boot</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 3: MMS (Medical Management System) -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/mms.png" alt="MMS (Medical Management System)">
+                        <div class="project-overlay">
+                            <a href="#" class="btn btn-sm">Demo</a>
+                            <a href="#" class="btn btn-sm btn-outline">Code</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>MMS</h3>
+                        <p>Integrated medical system for patient record management, doctor appointment scheduling, and
+                            streamlined billing.</p>
+                        <div class="project-tags">
+                            <span>Java</span>
+                            <span>Spring MVC</span>
+                            <span>Hibernate</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    </section>
+
+    <section id="contact" class="section contact-section alt-bg">
+        <div class="container">
+            <h2 class="section-title">Get In <span>Touch</span></h2>
+            <div class="contact-grid">
+                <div class="contact-info-card">
+                    <h3>My Details</h3>
+                    <div class="info-item">
+                        <strong>Email:</strong>
+                        <span>sudhansusekharjena411@gmail.com</span>
+                    </div>
+                    <div class="info-item">
+                        <strong>Phone:</strong>
+                        <span>+91 8984859934</span>
+                    </div>
+                    <div class="info-item">
+                        <strong>Location:</strong>
+                        <span>Bhubaneswar, Odisha, India</span>
+                    </div>
+                </div>
+                <form id="contact-form" class="glass-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" rows="5" placeholder="Let's connect!" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <a href="#home" class="footer-logo">SSJ<span> Portfolio</span></a>
+                <div class="social-links">
+                    <a href="https://github.com/sudhansuj" target="_blank">GitHub</a>
+                    <a href="#" target="_blank">LinkedIn</a>
+                </div>
+                <p>&copy; 2025 Sudhansusekhar Jena | All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
